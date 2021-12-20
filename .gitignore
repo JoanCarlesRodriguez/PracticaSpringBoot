@@ -33,5 +33,5 @@ build/
 .vscode/
 
 /node
-/nocd_modules
+/node_modules
 .mvn
