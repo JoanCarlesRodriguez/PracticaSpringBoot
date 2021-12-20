@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th ="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+<h1 th:text="${titol}">TITOL Guapo</h1>
+
+<form name="resposta" method="post" action="/prova/resposta">
+    <div>
+        <input type="text" name="nom">
+    </div>
+    <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
